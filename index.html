@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+</head>
+<!-- css file linking -->
+<link rel="stylesheet" href="./code/output.css">
+<!-- font selection -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+<script src="https://unpkg.com/flowbite@1.4.1/dist/flowbite.js"></script>
+<body class="body_font bg-[#1E2029] scroll-smooth">
+    <nav class="bg-white border-gray-200 py-2.5 dark:bg-gray-900 sticky top-0 z-50">
+        <div class="flex flex-wrap items-center justify-between max-w-screen-xl px-4 mx-auto">
+            <a href="#" class="flex items-center">
+                <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">Pradeep_Tumbinavar</span>
+            </a>
+            <div class="flex items-center lg:order-2">
+                <div class="hidden mt-2 mr-4 sm:inline-block">
+                    <span></span>
+                </div>
+                
+                <button data-collapse-toggle="mobile-menu-2" type="button"
+                    class="inline-flex items-center p-2 ml-1 text-sm text-gray-500 rounded-lg lg:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+                    aria-controls="mobile-menu-2" aria-expanded="true">
+                    <span class="sr-only">Open main menu</span>
+                    <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd"
+                            d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
+                            clip-rule="evenodd"></path>
+                    </svg>
+                    <svg class="hidden w-6 h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd"
+                            d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z"
+                            clip-rule="evenodd"></path>
+                    </svg>
+                </button>
+            </div>
+            <div class="items-center justify-between w-full lg:flex lg:w-auto lg:order-1" id="mobile-menu-2">
+                <ul class="flex flex-col mt-4 font-medium lg:flex-row lg:space-x-8 lg:mt-0">
+                    <li>
+                        <a href="#About"
+                            class="block py-2 pl-3 pr-4 text-white bg-[#1B2B2F] rounded lg:bg-transparent lg:text-purple-700 lg:p-0 dark:text-white"
+                            aria-current="page">About</a>
+                    </li>
+                    <li>
+                        <a href="#projects"
+                            class="block py-2 pl-3 pr-4 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-purple-700 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700">Projects</a>
+                    </li>
+                    <li>
+                        <a href="#skills"
+                            class="block py-2 pl-3 pr-4 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-purple-700 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700">Skills</a>
+                    </li>
+                    <li>
+                        <a href="#experience"
+                            class="block py-2 pl-3 pr-4 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-purple-700 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700">Experience</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    
+    <div id="About" class="p-10 w-auto flex px-8 sm:px-12 md:px-20 lg:px-24 justify-center relative">
+    
+        <div id="container" class="p-20 sm:p-16 md:p-20 lg:p-24 xl:p-20 w-auto flex flex-col md:flex-row px-4 sm:px-8 md:px-24 lg:px-24 xl:px-24 relative">
+            <div class="mr-10">
+               <img
+                 class="rounded-2xl   min-w-[100px] w-full h-auto md:w-auto md:h-auto shadow-lg"
+                 src="./assets/1709975473066-01.jpeg"
+                 alt="image of myself"
+               />
+            </div>
+            <div class="w-full sm:w-[70%] md:w-[60%] lg:w-[50%]">
+                <h1 class="text-[#FFFFFF] font-bold text-4xl mt-6 mb-8">
+                    👋 Hey it's me, Pradeep Tumbinavar
+                </h1>
+        
+                <p class="text-[#FFFFFF] text-justify w-full sm:w-[35rem] md:w-[30rem] lg:w-[25rem] mb-10">
+                    I am a final year Computer Science undergraduate at KLE INSTITUTE OF TECHNOLOGY with a current CGPA of 8.063. Skilled in C, Java, Python, and MERN full-stack development, I bring adaptability and a creative mindset to problem-solving. Seeking opportunities to contribute and excel professionally, I am passionate about learning and dedicated to making a meaningful impact. My expertise extends to innovative projects, equipping me to thrive in dynamic work environments and deliver impactful results.
+                </p>
+        
+                <div id="social" class="flex flex-wrap justify-start items-center gap-4">
+                    <a rel="noopener" target="_blank" href="https://github.com/pradeeptumbinavar" class="bg-gray-800 rounded-lg p-5 w-64 flex items-center gap-2 text-white hover:scale-105 transition duration-300 ease-in-out">
+                        <img class="mr-2 hover:scale-105 transition duration-300 ease-in-out" src="https://ucarecdn.com/1f465c47-4849-4935-91f4-29135d8607af/github2.svg" width="20px" height="20px" alt="Github" />
+                        <span>Visit my Github</span>
+                    </a>
+                    <a rel="noopener" target="_blank" href="http://www.linkedin.com/in/pradeep-tumbinavar-875985228" class="bg-gray-800 rounded-lg p-5 w-64 flex items-center gap-2 text-white hover:scale-105 transition duration-300 ease-in-out">
+                        <img class="mr-2 hover:scale-105 transition duration-300 ease-in-out" src="https://ucarecdn.com/95eebb9c-85cf-4d12-942f-3c40d7044dc6/linkedin.svg" width="20px" height="20px" alt="LinkedIn" />
+                        <span>Follow me on Linkedin</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- <p class="text-4xl text-white font-semibold mb-4 self-start text-center mt-10">Projects</p> -->
+    <div id="projects" class="mx-12 p-6 flex flex-wrap items-center justify-center bg-gray-800 rounded-lg shadow-lg">
+        <!-- Project cards go here -->
+        <!-- <p class="text-4xl text-white font-semibold mb-4 self-start text-center mt-10">Projects</p> -->
+        <div class="text-center w-full mb-2">
+            <p class="text-4xl text-white font-semibold mb-4">Projects</p>
+        </div>
+        <div class="flex-shrink-0 m-6 relative overflow-hidden bg-[#1F2533] rounded-lg max-w-xs shadow-lg hover:scale-105 transition duration-300 ease-in-out">
+            <svg class="absolute bottom-0 left-0 mb-8" viewBox="0 0 375 283" fill="none"
+                style="transform: scale(1.5); opacity: 0.1;">
+                <rect x="159.52" y="175" width="152" height="152" rx="8" transform="rotate(-45 159.52 175)" fill="white" />
+                <rect y="107.48" width="152" height="152" rx="8" transform="rotate(-45 0 107.48)" fill="white" />
+            </svg>
+            <div class="relative pt-10 px-10 flex items-center justify-center">
+                <div class="block absolute w-48 h-48 bottom-0 left-0 -mb-24 ml-3"
+                    style="background: radial-gradient(black, transparent 60%); transform: rotate3d(0, 0, 1, 20deg) scale3d(1, 0.6, 1); opacity: 0.2;">
+                </div>
+                <img class="relative w-60 rounded-md" src="./assets/Screenshot (133).png" alt="">
+            </div>
+            <div class="relative text-white px-6 pb-6 mt-6">
+                <span class="block opacity-75 -mb-1">(Major Project)</span>
+                <div class="flex justify-between">
+                    <span class="block font-semibold text-xl"> Gps Toll Monitoring App</span>
+                    <a href="https://pradeeptumbinavar.github.io/tollmainprjct/" rel="noopener" target="_blank"><span class="hover:scale-105 transition duration-300 ease-in-out block cursor-pointer bg-white rounded-full text-purple-800  text-xs font-bold px-3 py-2 leading-none flex items-center">Github</span></a>
+                </div>
+            </div>
+        </div>
+        <div class="flex-shrink-0 m-6 relative overflow-hidden bg-[#1C1C1C] rounded-lg max-w-xs shadow-lg hover:scale-105 transition duration-300 ease-in-out">
+            <svg class="absolute bottom-0 left-0 mb-8" viewBox="0 0 375 283" fill="none"
+                style="transform: scale(1.5); opacity: 0.1;">
+                <rect x="159.52" y="175" width="152" height="152" rx="8" transform="rotate(-45 159.52 175)" fill="white" />
+                <rect y="107.48" width="152" height="152" rx="8" transform="rotate(-45 0 107.48)" fill="white" />
+            </svg>
+            <div class="relative pt-10 px-10 flex items-center justify-center">
+                <div class="block absolute w-48 h-48 bottom-0 left-0 -mb-24 ml-3"
+                    style="background: radial-gradient(black, transparent 60%); transform: rotate3d(0, 0, 1, 20deg) scale3d(1, 0.6, 1); opacity: 0.2;">
+                </div>
+                <img class="relative w-60 rounded-md" src="./assets/Screenshot (117).png" alt="">
+            </div>
+            <div class="relative text-white px-6 pb-6 mt-6">
+                <span class="block opacity-75 -mb-1">Madhyam</span>
+                <div class="flex justify-between">
+                    <span class="block font-semibold text-xl">College Media Team Website</span>
+                    <a href="https://pradeeptumbinavar.github.io/Madhyam/" rel="noopener" target="_blank"><span class="hover:scale-105 transition duration-300 ease-in-out block cursor-pointer bg-white rounded-full text-purple-800  text-xs font-bold px-3 py-2 leading-none flex items-center">Github</span></a>
+                </div>
+            </div>
+        </div>
+        <div class="flex-shrink-0 m-6 relative overflow-hidden bg-[#1F2533] rounded-lg max-w-xs shadow-lg hover:scale-105 transition duration-300 ease-in-out">
+            <svg class="absolute bottom-0 left-0 mb-8" viewBox="0 0 375 283" fill="none"
+                style="transform: scale(1.5); opacity: 0.1;">
+                <rect x="159.52" y="175" width="152" height="152" rx="8" transform="rotate(-45 159.52 175)" fill="white" />
+                <rect y="107.48" width="152" height="152" rx="8" transform="rotate(-45 0 107.48)" fill="white" />
+            </svg>
+            <div class="relative pt-10 px-10 flex items-center justify-center">
+                <div class="block absolute w-48 h-48 bottom-0 left-0 -mb-24 ml-3"
+                    style="background: radial-gradient(black, transparent 60%); transform: rotate3d(0, 0, 1, 20deg) scale3d(1, 0.6, 1); opacity: 0.2;">
+                </div>
+                <img class="relative w-60 rounded-md" src="./assets/Screenshot (134).png" alt="">
+            </div>
+            <div class="relative text-white px-6 pb-6 mt-6">
+                <span class="block opacity-75 -mb-1">GT-Customs</span>
+                <div class="flex justify-between">
+                    <span class="block font-semibold text-xl">Automotive Showcase Website</span>
+                    <a href="https://pradeeptumbinavar.github.io/GT-Customs/" rel="noopener" target="_blank"><span class="hover:scale-105 transition duration-300 ease-in-out block cursor-pointer bg-white rounded-full text-purple-800  text-xs font-bold px-3 py-2 leading-none flex items-center">Github</span></a>
+                </div>
+            </div>
+        </div>
+    
+        <!-- Additional project cards -->
+    </div>
+    
+    <!-- Skills Section -->
+    <div id="skills" class="container mx-auto p-6">
+        <!-- Skills & Key Competencies content -->
+        <div class="bg-gray-800 p-6 rounded-lg shadow-lg">
+            <p class="text-4xl text-white font-semibold mb-4 text-center">Skills & Key Competencies</p>
+            <div class="flex flex-wrap gap-2">
+                <a href="#" class="bg-[#BEE1D2]  py-1 px-2 rounded-lg text-sm">C</a>
+<a href="#" class="bg-[#F4D9E6]  py-1 px-2 rounded-lg text-sm">C++</a>
+<a href="#" class="bg-[#D1C7E7]  py-1 px-2 rounded-lg text-sm">Java</a>
+<a href="#" class="bg-[#B0E2FF]  py-1 px-2 rounded-lg text-sm">Python</a>
+<a href="#" class="bg-[#F4E1BB]  py-1 px-2 rounded-lg text-sm">Front End Web development(MERN)</a>
+<a href="#" class="bg-[#BEE1D2]  py-1 px-2 rounded-lg text-sm">Figma</a>
+<a href="#" class="bg-[#F4D9E6]  py-1 px-2 rounded-lg text-sm">Bootstrap</a>
+<a href="#" class="bg-[#D1C7E7]  py-1 px-2 rounded-lg text-sm">Tailwind</a>
+<a href="#" class="bg-[#B0E2FF]  py-1 px-2 rounded-lg text-sm">Problem Solving</a>
+<a href="#" class="bg-[#F4E1BB]  py-1 px-2 rounded-lg text-sm">Attention to detail</a>
+<a href="#" class="bg-[#BEE1D2]  py-1 px-2 rounded-lg text-sm">Adaptability</a>
+<a href="#" class="bg-[#F4D9E6]  py-1 px-2 rounded-lg text-sm">Creative thinking</a>
+<a href="#" class="bg-[#D1C7E7]  py-1 px-2 rounded-lg text-sm">Photography</a>
+<a href="#" class="bg-[#B0E2FF]  py-1 px-2 rounded-lg text-sm">Sketching</a>
+<a href="#" class="bg-[#F4E1BB]  py-1 px-2 rounded-lg text-sm">Video editing</a>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Experience Section -->
+    <div id="experience" class="container mx-auto p-6">
+        <!-- Experience content -->
+        <div class="bg-gray-800 p-6 rounded-lg shadow-lg text-white">
+            <p class="text-4xl text-white font-semibold mb-4 text-center">Experience</p>
+            <div class="flex flex-wrap gap-2">
+                <!-- Experience details go here -->
+                <a  class="bg-[#1F2533] py-1 px-2 rounded-lg text-sm backdrop-blur-lg">
+    
+                    <p class="text-xl font-semibold mb-4 text-">FULL STACK INTERNSHIP(MERN):                                                                                    
+                        14/09/2023-14/10/2023</p>
+                     <p class=" font-medium  text-md  ">
+                        Through an internship at Samarth Meditech in Hubballi, I have honed my skills in Full Stack (MERN) Web Development, specializing in crafting comprehensive end-to-end web solutions. My proficiency extends to both frontend and backend development, allowing me to make meaningful contributions to the creation of dynamic web applications.  
+                     </p>
+                </a>
+                <!-- Additional experience items -->
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
+
+  
